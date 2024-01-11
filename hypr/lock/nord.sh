@@ -1,3 +1,4 @@
+sleep 1
 swaylock \
 	--screenshots \
 	--clock \
