@@ -1,6 +1,7 @@
 sleep 1
 swaylock \
 	--screenshots \
+  --show-failed-attempts \
 	--clock \
 	--indicator \
 	--indicator-radius 100 \
