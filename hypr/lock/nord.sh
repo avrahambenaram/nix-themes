@@ -13,6 +13,15 @@ swaylock \
 	--line-color 81a1c188 \
 	--inside-color 22222288 \
 	--text-color e5e9f0 \
+  --ring-ver-color 81a1c1ff \
+  --inside-ver-color 5e81acff \
+  --text-ver-color 3b4252ff \
+  --ring-wrong-color d08770ff \
+  --text-wrong-color 3b4252ff \
+  --inside-wrong-color bf616aff \
+  --inside-clear-color 81a1c1ff \
+  --text-clear-color 3b4252ff \
+  --ring-clear-color 88c0d0ff \
 	--separator-color 00000000 \
 	--grace 5 \
 	--fade-in 0.2
