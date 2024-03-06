@@ -1,0 +1,12 @@
+# class                 border  bground text    indicator child_border
+client.focused          #148b85 #148b85 #f8f8f2 #148b85   #148b85
+client.focused_inactive #263039 #263039 #f8f8f2 #263039   #263039
+client.unfocused        #263039 #263039 #f8f8f2 #263039   #263039
+client.urgent           #44475A #EC0606 #f8f8f2 #EC0606   #EC0606 
+client.placeholder      #263039 #263039 #f8f8f2 #263039   #263039 
+client.background       #f8f8f2
+
+blur_passes 4
+blur_radius 3
+
+exec_always swww img ~/.config/.themes/bg/boxuk/aurora.jpg --transition-type=grow --transition-fps=120 --transition-pos=top-right

@@ -1,0 +1,9 @@
+# class                 border  bground text    indicator child_border
+client.focused          #ca9ee6 #ca9ee6 #f8f8f2 #ca9ee6   #ca9ee6 
+client.focused_inactive #303446 #303446 #c6d0f5 #303446   #303446 
+client.unfocused        #303446 #303446 #c6d0f5 #303446   #303446 
+client.urgent           #44475A #e78284 #c6d0f5 #e78284   #e78284 
+client.placeholder      #51576d #51576d #c6d0f5 #51576d   #51576d 
+client.background       #c6d0f5 
+
+exec_always swww img ~/.config/.themes/bg/catppuccin/night-mountain.jpg --transition-type wave --transition-fps 120

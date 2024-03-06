@@ -1,0 +1,12 @@
+# class                 border  bground text    indicator child_border
+client.focused          #c9a554 #c9a554 #f8f8f2 #c9a554   #c9a554
+client.focused_inactive #222222 #222222 #f8f8f2 #222222   #222222
+client.unfocused        #222222 #222222 #f8f8f2 #222222   #222222
+client.urgent           #44475A #8A5738 #f8f8f2 #8A5738   #8A5738 
+client.placeholder      #282A36 #282A36 #f8f8f2 #282A36   #282A36
+client.background       #f8f8f2
+
+blur_passes 3
+blur_radius 2
+
+exec_always swww img ~/.config/.themes/bg/miasma/john-towner.jpg --transition-type center --transition-fps 60

@@ -1,0 +1,12 @@
+# class                 border  bground text    indicator child_border
+client.focused          #81a1c1 #81a1c1 #f8f8f2 #81a1c1   #81a1c1 
+client.focused_inactive #2E3440 #2E3440 #D8DEE9 #2E3440   #2E3440 
+client.unfocused        #2E3440 #2E3440 #D8DEE9 #2E3440   #2E3440 
+client.urgent           #44475A #d08770 #D8DEE9 #d08770   #d08770 
+client.placeholder      #2E3440 #2E3440 #D8DEE9 #2E3440   #2E3440 
+client.background       #D8DEE9 
+
+blur_passes 4
+blur_radius 3
+
+exec_always swww img ~/.config/.themes/bg/nord/Everest.jpg --transition-type any --transition-fps 120

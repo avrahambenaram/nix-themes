@@ -1,0 +1,12 @@
+# class                 border  bground text    indicator child_border
+client.focused          #B51D2C #B51D2C #DCDCDD #B51D2C   #B51D2C 
+client.focused_inactive #2C2E34 #2C2E34 #DCDCDD #2C2E34   #2C2E34 
+client.unfocused        #2C2E34 #2C2E34 #DCDCDD #2C2E34   #2C2E34 
+client.urgent           #44475A #F35B79 #DCDCDD #F35B79   #F35B79 
+client.placeholder      #2E3440 #2C2E34 #DCDCDD #2C2E34   #2C2E34 
+client.background       #DCDCDD 
+
+blur_passes 3
+blur_radius 2
+
+exec_always swww img ~/.config/.themes/bg/baskerville/alley.jpg --transition-type=grow --transition-fps=120 --transition-pos=top-right
